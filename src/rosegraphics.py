@@ -1170,6 +1170,7 @@ class Line(_Shape, _ShapeWithThickness):
 
     def __init__(self, start, end):
         """
+          :rtype: object
           :type  start:  rg.Point
           :type  end:    rg.Point
         """
